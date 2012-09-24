@@ -1,0 +1,23 @@
+<h1>Nosotros : </h1>
+
+<table>
+  <tr>
+    <th>Nombre</th> 
+    <th>Fotos</th>
+    </tr>
+    
+<%@users.each do |user|%>
+    <tr>
+      <td><%= user %></td>
+      <td><%= image_tag(user+".jpg",:alt=>"tareabasica",:class=> "round" ) %></td>
+    </tr>
+
+ <% end %> 
+   </table>
+
+<p>son las:<%=@time %></p>
+<p>Hola somos el grupo de desarollo del proyecto final de la materia programacion web, en este momenton estamos probando ruby , hasta ahora nos a tocado muy duro,casi no entendemos el lenguage.</p>
+
+<p>Ahora estamos estudiando muy duro para sacar el proyecto adelante y ser el mejor grupo ,obteniendo la mejor nota. </p>
+
+<h2> SOMOS LOS MEJORES</h2>
